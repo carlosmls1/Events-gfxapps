@@ -111,10 +111,14 @@ class Events_Gfxappscr {
 		 */
 		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-events-gfxappscr-i18n.php';
 
-		/**
-		 * The class responsible for defining all actions that occur in the admin area.
-		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-events-gfxappscr-admin.php';
+        /**
+         * The class responsible for defining all actions that occur in the admin area.
+         */
+        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'admin/class-events-gfxappscr-admin.php';
+        /**
+         * The post type started.
+         */
+        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-events-gfxappscr-events.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
