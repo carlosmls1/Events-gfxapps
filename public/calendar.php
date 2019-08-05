@@ -27,7 +27,7 @@ echo "<!--El localismo preferido para el sistema es '$loc_de'-->";
                 <header class="header">
                     <div class="container">
                         <span><?php echo strtoupper($monthName)?></span>
-                        <h1> PRO IMAGEN EVENT'S</h1>
+                        <h1> EVENTS</h1>
                     </div>
                 </header>
                 <!--======= Upcoming Events =======-->
